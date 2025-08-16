@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for I_InspectionLot'
+define service Zsrv_inspcetionlot {
+  expose zi_inspection_lot_cds;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "QM Certificate Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "QM Certificate Print"
+  },
+  "ui5AppDetails": {
+    "appId": "zqmcertificateprintv2"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_81DFA6C0A7A1CBA879AE3F606871078C78E76715_TM",
+    "semanticObject": "zso_qm_certificate_print_v2",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_81DFA6C0A7A1CBA879AE3F606871078C78E76715_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "QM Certificate Print",
+        "subtitle": "zqm_certificate_print"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_QM_CERT_NEW_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM APP FOR QM CERTIFICATE</DESCRIPTION>
+     <RESPONSIBLE>CB9980000021</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>NZ4</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZQM_CERTIFICATE_NEW</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_QM_CERT_NEW_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZQM_CERT_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZCL_HTTP_QM_CERT_NEW</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>ZIAM_QM_CERT_NEW_EXT</APP_ID>
+      <SRVC_NAME>0229D9D0705A76DD83BBA508A1E165</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>handler class of QM CERTIFICATE</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+     <item>
+      <REL_NAME>ZSRV_BIND_QM_CERTIFICATE           0001</REL_NAME>
+      <REL_TYPE>IWSV</REL_TYPE>
+      <APP_ID>ZIAM_QM_CERT_NEW_EXT</APP_ID>
+      <SRVC_NAME>835F68571B469E7A34A3BAC910F569</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZQM_CERT_UI5R</UIAD_SRC>
+      <TEXT>service BING for qm certificate</TEXT>
+      <TYPE_TEXT>OData V2</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

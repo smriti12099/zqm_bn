@@ -1,0 +1,4 @@
+@EndUserText.label: 'service binding for qm certification'
+define service Zsrv_qm_certification_NEW {
+  expose ZCDS_QM_CERT_NEW;
+}

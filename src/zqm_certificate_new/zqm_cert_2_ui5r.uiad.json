@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "qm_certificate",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "qm_certificate"
+  },
+  "ui5AppDetails": {
+    "appId": "zqmcertnew"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B7CFE2BA4079BE7E7585D3E713AADD71AD42D6E8_TM",
+    "semanticObject": "zqm_cert_so",
+    "action": "DISPLAY",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B7CFE2BA4079BE7E7585D3E713AADD71AD42D6E8_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "qm_certificate",
+        "subtitle": "zqm_cert"
+      }
+    }
+  ]
+}
